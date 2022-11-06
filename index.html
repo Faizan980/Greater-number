@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+    <title>Greater number</title>
+</head>
+<body>
+    <div class="page">
+        <h1 class="title" data-text="Find the Greater value">Find the Greater value</h1>
+        </div>
+    <div class="container">
+        <form id="form">
+        <label for="number">Enter first number</label>
+        <br><br>
+        <input type="number" name="number" id="num1"><br><span id="num-error"></span>
+        <br><br>
+        <label for="number">Enter second number</label>
+        <br><br>
+        <input type="number" name="number" id="num2"><br><span id="num1-error"></span>
+        <br><br>
+        <button onclick="game(); return false">Check Now</button>
+        </form>
+    </div>
+    <h1 id="result"></h1>
+</body>
+</html>
